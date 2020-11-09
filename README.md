@@ -37,7 +37,10 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     Your site is now running at `http://localhost:8000`!
     
     Static generated pages goes under `/src/pages`.
+    
     Dynamic pages are called inside `/src/pages/countries`, they are client side served pages.
+    
+    The website is using a public graphQl api for demonstration purposes, the API is [GraphCountires](https://github.com/gatsbyjs/gatsby-starter-hello-world) where you can Query all countries, depending on multiple variables.
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.com/tutorial/part-five/#introducing-graphiql)._
 
