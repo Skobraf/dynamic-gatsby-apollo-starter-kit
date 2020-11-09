@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "dynamic-gatsby-apollo-starter-kit",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A simplified bare-bones starter for fetching dynamic data using apollo client",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -13,17 +13,38 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
+  "eslintConfig": {
+    "extends": [
+      "wesbos"
+    ],
+    "rules": {
+      "react/prop-types": 0
+    }
+  },
   "dependencies": {
     "gatsby": "^2.25.3",
+    "@apollo/client": "^3.2.5",
+    "cross-fetch": "^3.0.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "eslint": "^7.11.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-wesbos": "^1.0.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.2",
     "prettier": "2.1.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/Skobraf/dynamic-gatsby-apollo-starter-kit"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
