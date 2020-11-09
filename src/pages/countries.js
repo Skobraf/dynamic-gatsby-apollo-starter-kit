@@ -17,7 +17,6 @@ const client = new ApolloClient({
 function Countries() {
   return (
     <ApolloProvider client={client}>
-      <p>hello zorld</p>
       <Router>
         <CountriesContainer path="/countries/:name" />
       </Router>

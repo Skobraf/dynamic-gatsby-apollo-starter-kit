@@ -20,10 +20,10 @@ export default function CountriesContainer() {
   if (error) return <p>error: {error}</p>
   return data?.Country.length > 0 ? (
     <div>
-      <h1>The Capital of: {data?.Country[0].name}</h1>
-      <h2>Is:{data?.Country[0].capital}</h2>
+      <h1>The capital of: {data?.Country[0].name}</h1>
+      <h2>Is: {data?.Country[0].capital}</h2>
     </div>
   ) : (
-    <p>This countries doesn't exist, please verify the name</p>
+    <p>This country doese not exist, please verify the name</p>
   )
 }
