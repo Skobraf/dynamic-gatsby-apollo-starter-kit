@@ -8,12 +8,12 @@ export default function Home({ data }) {
       <h2>{data.site.siteMetadata.title}</h2>
       <h3>{data.site.siteMetadata.description}</h3>
       <p>
-        This Starter-kit uses{' '}
+        This Starter-kit uses
         <a href="https://github.com/lennertVanSever/graphcountries">
           Countries v2
-        </a>{' '}
+        </a>
         public graphQl API, which enable us to fetch country data depending on
-        the country name in our case.{' '}
+        the country name in our case.
       </p>
       <br />
       <p>
